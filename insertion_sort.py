@@ -1,5 +1,5 @@
 
-def insertionSort(arr):
+def insertion_sort(arr):
     for i in range(1, len(arr)):
         key = arr[i]
         j = i-1
@@ -12,5 +12,5 @@ def insertionSort(arr):
 
 
 test_arr = [3, 4, 6, 2, 6, 8, 4, 2, 6, 9, 3, 7, 0, 1, 3, 3]
-insertionSort(test_arr)
+insertion_sort(test_arr)
 print(test_arr)
